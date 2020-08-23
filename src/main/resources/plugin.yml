@@ -1,0 +1,19 @@
+name: WorldWarper
+main: org.sweetiebelle.worldwarper.WorldWarper
+version: $version
+api-version: 1.16
+softdepend: [Multiverse-Core]
+authors: [SweetieBelle]
+description: >
+             Teleports people from illegal worlds.
+permissions:
+    worldwarper.reload:
+        description: Reloads world waper
+        default: op
+    worldwarper.bypass:
+        description: Bypasses warping checks. 
+        default: op
+commands:
+    worldwarper:
+        description: Reloads config
+        usage: /worldwarper
